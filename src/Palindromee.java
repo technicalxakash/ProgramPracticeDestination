@@ -19,18 +19,11 @@ public class Palindromee {
 			return false;
 			}
 		
-		}
-
-	
+		}	
 	public static void main(String[] args) {
-		
-		
-		boolean res= Palindromee.pali("mom");
-		
+				
+		boolean res= Palindromee.pali("mom");		
 		System.out.println(res);
-		
-		
-	
 
 	}
 

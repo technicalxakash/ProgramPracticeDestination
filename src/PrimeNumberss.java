@@ -10,7 +10,7 @@ public class PrimeNumberss {
 		
 		int num=sc.nextInt();
 		
-		for(int i=0;i<=num/2;i++) {
+		for(int i=2;i<=num/2;i++) {
 			if(num%2==0) {
 				System.out.println("it is not a prime number");
 				System.exit(0);
