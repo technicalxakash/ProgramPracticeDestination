@@ -21,7 +21,11 @@ public class Anagramm {
 		Arrays.sort(str111);
 		Arrays.sort(str222);
 		
-		if(Arrays.equals(str111, str222)) {
+		
+		String str=new String(str111);
+		String Strr=new String(str222);
+		
+		if(str.equals(Strr)) {
 			System.out.println("It is a anagram");
 			}
 			else {

@@ -3,8 +3,7 @@ package Destina_Program2;
 public class SecondSmallestElements {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-int [] a= {1,2,66,5,43,44,56,22};
+		int [] a= {1,2,66,5,43,44,56,22};
 		
 		int min1=a[0];
 		int min2=a[0];
@@ -19,7 +18,6 @@ int [] a= {1,2,66,5,43,44,56,22};
 			
 		}
 
-		
 		for(int i=2;i<a.length;i++) {
 			if(min1>a[i]) {
 				
