@@ -1,6 +1,6 @@
 package www.home.programs;
 
-import java.util.Arrays;
+
 
 public class kRotateAnArray {
 
@@ -22,10 +22,28 @@ public class kRotateAnArray {
 			
 		}
 		
-for(int g:aa) {
+		int i=0;
+		int j=aa.length-1;
+		int temp=0;
+		
+		while(i<j) {
+			
+			temp=aa[i];
+			
+			aa[i]=aa[j];
+			
+			aa[j]=temp;
+			
+			i++;
+			j--;
+			
+		}
+for(int ii:aa) {
+	System.out.print(ii+" ");
 	
-	System.out.print(g);
 }
+
+
 
 
 
