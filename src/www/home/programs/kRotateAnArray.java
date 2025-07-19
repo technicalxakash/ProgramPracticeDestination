@@ -44,24 +44,39 @@ for(int ii:aa) {
 }
 
 
+System.out.println();
+
+int [] ab1= new int[a.length-(k-1)];
+
+for (int i1 = k-1, jj = 0; i1 < a.length; i1++, jj++) {
+	
+	
+	ab1[jj]=a[i1];
+	
+}
 
 
+int iii=0;
+
+int  jjj=ab1.length-1;
+
+int tempp=0;
+
+while(iii<jjj) {
+	
+	temp=ab1[iii];
+	ab1[iii]=ab1[jjj];
+	ab1[jjj]=temp;
+	
+	iii++;
+	jjj--;
+}
+
+for(int i1i:ab1) {
+	System.out.print(i1i+" ");
+}
 
 
-//int index = 0;
-//
-//for(int i=k-1;i<a.length;i++) {
-//	
-//   bb[index++]=a[i];
-//	
-//	
-//}
-//
-//for(int gg:bb) {
-//	
-//	System.out.println(gg);
-//}
-//	
 
 	}
 
