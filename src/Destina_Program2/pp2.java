@@ -24,7 +24,22 @@ public class pp2 {
 //		}
 //		int temp=0;
 		//System.out.println(max);
-		int a[] = {1,2,5,3,7};
+//		int a[] = {1,2,5,3,7};
+//		
+//		for(int i=0;i<a.length-1;i++) {
+//			
+//			for(int j=i+1;j<a.length;j++) {
+//				
+//				if(a[i]<a[j]) {
+//					
+//					System.out.print(a[j]+" ");
+//					break;
+//				}
+//								
+//			}
+			
+		
+int a[] = {1,2,5,3,7};
 		
 		for(int i=0;i<a.length-1;i++) {
 			
@@ -37,7 +52,6 @@ public class pp2 {
 				}
 								
 			}
-			
 			//System.out.print();
 		}
 		}
