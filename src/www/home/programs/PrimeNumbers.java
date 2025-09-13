@@ -5,7 +5,7 @@ public class PrimeNumbers {
 	public static void main(String[] args) {
 		
 		
-		int num=6;
+		int num=2;
 		
 		for(int i=0;i<=num/2;i++) {
 			if(num%2==0) {
